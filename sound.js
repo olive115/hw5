@@ -1,3 +1,10 @@
+function preload() {
+  soundFormats('wav');
+  for (var i = 0; i < 10; i++) {
+    sounds.push(loadSound('443353__cloe-king__lawn-mower-edit.wav'));
+  }
+}
+
 function setup() {
   createCanvas(400, 200);
   colorMode(HSB);
